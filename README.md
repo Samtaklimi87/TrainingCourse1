@@ -99,4 +99,22 @@ ___
 * [ ] task2
 * [X] task3
 
- 
+
+---
+
+ ## Feynman Technique
+
+  If you can’t **explain** it _simply_, then you don’t _understand_ it well enough.
+
+  > First principle is that you must not _fool_ yourself – and you are _easiest_ person to fool.
+
+1. take piece of paper and write the __concept’s name__ at the top (phytogorim theory)
+2. explain the concept using _simple_ language.
+3. __identify__ problem area, then go back to the _source_ to review.
+4. pinpoint any __complicated terms__ and challenge yourself to _simplify_ them.
+
+> Why that’s work, always ask yourself as kid.
+
+[Link to Feynman Technique video](https://www.youtube.com/watch?v=_f-qkGJBPts "explain the Feynman")
+
+---
