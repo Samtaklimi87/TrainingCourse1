@@ -101,7 +101,7 @@ ___
 
 
 ---
-
+v
  ## Feynman Technique
 
   If you can’t **explain** it _simply_, then you don’t _understand_ it well enough.
@@ -118,3 +118,9 @@ ___
 [Link to Feynman Technique video](https://www.youtube.com/watch?v=_f-qkGJBPts "explain the Feynman")
 
 ---
+
+org mode !
+mdbook dodumetion  - git hub 
+
+> user rights 
+> schript smal one try it _to have more speed-
