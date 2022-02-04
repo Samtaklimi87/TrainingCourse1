@@ -62,17 +62,7 @@ ___
 ![markdown logo](https://markdown-here.com/img/icon256.png)
 
 
-
-
-
-
-
-
-
 <!-- github Markdown -->
-
-
-
 
 <!-- Code blocks -->
 
