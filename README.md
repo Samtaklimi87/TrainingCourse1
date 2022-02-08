@@ -119,8 +119,41 @@ v
 
 ---
 
-org mode !
-mdbook dodumetion  - git hub 
 
-> user rights 
-> schript smal one try it _to have more speed-
+> First Session __4-Feb-22__
+
+#### Doocument creation with Markdown
+    add markdown to my IDE and practice abit with it.
+
+### Note taking in Orgmode
+    Im not going to use it for now, its a good tool but maybe for future, now im going to use VS code editor and markdown plus preview md which can show me at the same time what change I made.  
+
+### Linux 
+1. Create and SSH Into a Linux Machine
+    * nest
+    *               
+2.     
+
+* [ ] org mode
+ 
+* [ ] mdbook dodumetion  - git hub 
+
+### user rights 
+
+### schript small one try it _to have more speed-
+
+* [ ] css > making home page with css which one ! microsoft 
+csstrick .com 
+
+
+| days     | practice writing | 
+| -------- | ---------------- |            
+| Mon      |                  |
+| Tue      |                  |
+| Wed      |                  |
+| Thu      |                  |
+| Fri      |                  |
+| Sat      |                  |
+| Sun      |                  |
+|          |                  |
+
