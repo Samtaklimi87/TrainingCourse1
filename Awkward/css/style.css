@@ -1,0 +1,101 @@
+body {
+    background-color: beige;
+    font-family: 'Nunito Semibold';
+    text-align: center;
+    margin: 10px;
+}
+
+.header{
+    background-color: CadetBlue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+ 
+.description{
+    background-color: CadetBlue;
+}
+
+.section{
+    background-color: CadetBlue ;
+
+}
+
+/* #elem{
+    background-color: red;
+} */
+
+#options {
+    background-color: CadetBlue ;
+
+}
+
+#op1 {
+    background-color: CadetBlue ;
+    margin-bottom: 20px;
+}
+#options div {
+    background-color: DarkKhaki ;
+    display: flex;
+    margin-left:100px ;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+
+#options a{
+    background-color: orangered ;
+    text-decoration: none;
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: green ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-position: outside;
+}
+
+footer {
+    background-color: gray;    
+    /* padding: 30px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    background-color: rgb(142, 134, 145);
+    text-decoration: none;
+}
+footer a svg{
+    opacity: .5;
+    width: 16px;
+    height: 16px;
+    margin-top: 16px;
+    margin: 5px;
+
+}
+.icons {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .menu{
+        display: none;
+    }
+    
+  }
