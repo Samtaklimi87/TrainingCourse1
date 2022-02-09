@@ -1,23 +1,62 @@
 body {
-    background-color: beige;
-    font-family: 'Nunito Semibold';
+    background-color: #fff;
     text-align: center;
     margin: 10px;
+    font-family:sans-serif,San Francisco,Roboto,Segoe UI,Helvetica Neue,Lucida Grande,sans-serif;
 }
 
 .header{
-    background-color: CadetBlue;
+    background-color: #fff;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 65px;
+    height: 55px;
+    padding-top: 33px;
 }
 
-/* .logo{
+#image-logo{
+    width: 33px;
+    height: 43px;
+    transform: translateY(3px);
+}
+
+.logo{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+
+} 
+
+.header .logo a{
+    text-decoration:none;
+    font-size: 16px;
+    color: #2b2e32;
+    
+}
+
+#logo-id{
+    font-weight: 400;
+    line-height: 1.3;
+    padding-left: 80px;
+}
+
+#menu {
+    display: flex;
     justify-content: space-between;
-} */
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: rgba(25,25,25,.3);
+    padding: 15px;
+}
+
  
 .description{
     background-color: CadetBlue;
@@ -55,16 +94,6 @@ body {
     text-decoration: none;
 
 }
-ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: green ;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    list-style-position: outside;
-}
 
 footer {
     background-color: gray;    
@@ -90,11 +119,11 @@ footer a svg{
     display: flex;
     align-items: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
     body {
       background-color: lightblue;
     }
-    .menu{
+    #menu , #logo-id{
         display: none;
     }
     
