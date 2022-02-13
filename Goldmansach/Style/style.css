@@ -1,0 +1,88 @@
+body{
+    font-family: sans-serif;
+}
+
+.headcn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.logo{
+    /* width: 250px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 108px;
+    margin-left: 24px;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+.login div{
+    font-size: 16px;
+    padding: 10px;
+    color:black;
+
+}
+.login a {
+    text-decoration: none;
+    color: black;
+}
+.logobar{
+    margin-left: 46px;
+}
+.login button{
+    background-color: white;
+    font-size: 16px;
+    /* padding: 5px 10px; */
+    border: none;
+    width: 100px;
+}
+.login button:hover{
+    background-color: #f5f7f8;
+}
+/* for menubar */
+.logobar div{
+    width: 24px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.fa {
+    transform: scaleX(-1);
+    
+}
+.homepg{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 168);
+}
+
+.safehide{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.safehide a{
+    color:#7399cc; 
+    
+}
+@media only screen and (max-width: 960px){
+    .headcn{
+        margin-top: 13px;
+        margin-left: -24px;
+    }
+}
