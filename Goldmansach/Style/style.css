@@ -612,9 +612,10 @@ form.example input[type=text] {
         transition: all 0.3s ease-in-out 0.2s;
         cursor: pointer;
     }
-    .subscrip {
+    .subscrip , .form{
         display: block;
         padding: 0px; 
         background-color: #192e47;
+        text-align: center;
 }
 }
