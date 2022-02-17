@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family:"Raleway", sans-serif;
     margin: 0px;
 }
 
@@ -138,7 +138,7 @@ body{
 }
 
 .videocontainer-content h2{
-    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 76px;
     line-height: 82px;
     letter-spacing: -1px;
@@ -146,7 +146,7 @@ body{
     margin: 0px;
 }
 .videocontainer-content p{
-    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0px;
@@ -185,7 +185,7 @@ body{
     padding: 48px 144px;
 }
 .textlink a{
-    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 36px;
     color: #333333;
     text-decoration: none;
@@ -391,9 +391,35 @@ body{
     align-items: center;
     padding: 120px;
 }
+
+#bg-image { 
+    background: url("../Images/financial-cloud-1400x1300.webp") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#bg-image .text-col , #bg-image h4 , #bg-image h1 , #bg-image p {
+    color: white;
+    opacity: 1;
+}  
+
+#bg-image a {
+    background-color: white;
+    color: black;
+}
+#bg-image a:hover{
+    background-color: black;
+    color: white;
+}
+
 .text-col{
-    width: 100%;
+    width: 50%;
     text-align: center;
+}
+.image-col{
+    width: 50%;
+    /* text-align: center; */
 }
 .text-col h1{
     /* font-weight: 100;
@@ -417,13 +443,19 @@ body{
     /* letter-spacing: -1px; */
     text-align: left;
 }
-
+.text-col h4{
+    color: #707070;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: left;
+}
 .text-col a {
     background-color: black;
     color: white;
     text-decoration: none;
     padding: 16px 24px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 12px;
     font-weight: 700; 
 }
@@ -435,24 +467,80 @@ body{
     text-align: left;
     margin-top: 52px;
 } 
-.image-col{
-    width: 100%;
-    /* text-align: center; */
-}
 .image-col img:hover{
     transform: scale(1.06);
     transition: all 0.3s ease-in-out 0.2s;
     cursor: pointer;
 }
+.subscrip {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 0 144px;
+    margin: 0;
+    background-color: #192e47;
+}
+.subscrip h4{
+    line-height: 1.2;
+    font-weight: 100;
+    color: white;
+    font-size: 70px;
+    margin: 140px 0px 0px 0px;
+    
+}
+.subscrip span{
+    color: #2471d6;
+}
+.form {
+    text-align: left;
+    margin-bottom: 130px;
+    color: white;
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 760px;
+    font-weight: 300;
+}
+ .form-p{
+    padding-top: 60px;
+}
 
-
+.form-b{
+    padding: 80px 0px;
+}
+form.example input[type=text] {
+    padding: 20px;
+    font-size: 17px;
+    /* border: 1px u grey; */
+    float: left;
+    width: 70%;
+    background: #192e47;
+    border: none;
+    border-bottom: solid 1px #5a7097
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 20px 5px;
+    background: #2471d6;;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-left: none;
+    border-bottom: solid 1px #5a7097;
+    cursor: pointer;
+  }
+  .example span{
+      color: white;
+  }
 .construction{
     /* background-color: #192e47; */
     background-color: antiquewhite;
     width: 100%;
     height: 100px;
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 960px){
     .headcn{
         margin-top: 13px;
         margin-left: -24px;
@@ -524,4 +612,9 @@ body{
         transition: all 0.3s ease-in-out 0.2s;
         cursor: pointer;
     }
+    .subscrip {
+        display: block;
+        padding: 0px; 
+        background-color: #192e47;
+}
 }
