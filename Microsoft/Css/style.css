@@ -1,0 +1,101 @@
+body{
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 310px;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    justify-content: space-between;
+    align-items: center;   
+    /* padding: 20px;  */
+
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+.header-left-img{
+    /* margin-top: -3px; */
+    max-width: none;
+    width: 108px;
+    /* padding: 16px 6px 16px 10px; */
+    /* float: left; */
+    height: 100%;
+    margin-top: 1px;
+    /* width: 137px;
+    outline-offset: -2px; */
+}
+header a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px !important;
+    padding: 16px 10px 10px;
+}
+.header-left-a{
+    padding: 12px 8px 12px;
+}
+.header-right img{
+    width: 8px;
+    padding-left: 2px;
+}
+.header-left-a a:hover , .header-right a:hover {
+    border-bottom: solid;
+}
+
+.fa {
+    opacity: 0.7555;
+    transform: scaleX(-1);
+    
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-right a {
+    padding: 12px 8px 12px;
+}
+.header-right-div{
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.header-right-div a{
+    /* padding: 12px 8px 12px; */
+}
+#kiiir{
+    width: 25px;
+}
+#kos{
+    width: 25px;
+}
+#kkoss{
+    width: 10px;
+}
+
+.const{
+    width: 100%;
+    background-color: bisque;
+}
+/* .arrow-rot{
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+} */
+
+@media only screen and (max-width: 960px){
+    header a {
+        padding: 0px;
+    }
+    .header-left-a a , .header-right a , #kkoss {
+        display: none;
+    }
+}
