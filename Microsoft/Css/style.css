@@ -312,7 +312,32 @@ header a {
   #slide2spans2:hover{
       text-decoration: underline 2px;
   }
-      
+
+  .products{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 25px 20%;
+      /* background-color: #ffb900; */
+  }
+.products-item{
+    display: flex;
+    align-items: center;
+    /* width: 8%; */
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 36px 5%;
+}
+.products-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+.products-item:hover{
+  text-decoration: underline;
+}
 .const{
     width: 100%;
     background-color: bisque;
