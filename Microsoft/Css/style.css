@@ -338,6 +338,76 @@ header a {
 .products-item:hover{
   text-decoration: underline;
 }
+.surfaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 4%;
+}
+.surfaces-item {
+  display: flex;
+  /* align-items: flex-start; */
+  width: 100%;
+  height: 100%;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* text-align: left; */
+}
+.surfaces-item a{
+  text-decoration: none;
+  color: #3367bb;
+  font-size: 16px;
+    font-weight: 600;
+}
+.surfaces-item a:hover{
+  border-bottom: 2px solid;
+}
+.surfaces-item-span{
+  color: #3367bb;
+  font-size: 16px;
+  font-weight: 600;
+}
+.surfaces-item a:hover ~ .surfaces-item-span {
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+}
+/* .surfaces-item-span:hover{
+  padding: 5px;
+} */
+.surfaces-item  img{
+  width: 94%;
+}
+.surfaces-item h3{
+  font-size: 20px;
+    font-weight: 500;
+}
+.surfaces-item p{
+  padding-right: 56px;
+
+}
+#kopsurf{
+  padding: 0px 4%;
+  margin-top: 10px;
+}
+#kopsurf a {
+  text-decoration: none;
+  color: #3367bb;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+.kopsurf-span{
+  color: #3367bb;
+  font-size: 16px;
+  font-weight: 600;
+}
+#kopsurf a:hover{
+  border-bottom: 2px solid;
+}
+#kopsurf a:hover ~ .kopsurf-span {
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+}
 .const{
     width: 100%;
     background-color: bisque;
