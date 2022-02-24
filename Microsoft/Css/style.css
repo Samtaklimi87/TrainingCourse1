@@ -352,6 +352,7 @@ header a {
   flex-direction: row;
   justify-content: space-around;
   padding: 0 4%;
+  margin-bottom: 40px;
 }
 .surfaces-item {
   display: flex;
@@ -385,6 +386,7 @@ header a {
 } */
 .surfaces-item  img{
   width: 94%;
+  margin-bottom: 10px;
 }
 .surfaces-item h3{
   font-size: 20px;
@@ -472,13 +474,79 @@ header a {
   font-size: 14px;
     /* font-weight: 600; */
 }
-.surfaces-item-divs{
+/* .surfaces-item-divs{
   padding: 10px;
-  /* line-height: 1.7; */
-}
+  line-height: 1.7;
+} */
 footer{
   background-color: #f2f2f2;
   color: #616161;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  padding: 0 4%;
+}
+.footer-up-contain{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.footer-up-col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-up-col h4{
+  font-weight: 600;
+}
+.footer-up-col-a{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-up-col-a a {
+  text-decoration:none ;
+  color: #464646;
+  font-size: 11px;
+  line-height: 3;
+  font-weight: 400;
+}
+.footer-up-col-a a:hover , .footer-down-col2 a:hover , .footer-down-col1 a:hover{
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+.footer-down{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom : 20px;
+}
+.footer-down-col1{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.footer-down-col1 img{
+  opacity:0.7;
+  margin-right: 10px;
+}
+.footer-down a{
+  text-decoration:none ;
+  color: #464646;
+  font-size: 11px;
+  line-height: 3;
+  font-weight: 400;
+  margin-right: 20px;
+}
+#right-arrow{
+  width: 10%;
+  height: 10%;
 }
 .const{
   width: 100%;
@@ -540,6 +608,7 @@ footer{
     }
     .surfaces{
       flex-direction: column;
+      
     }
     .surfaces-item{
       padding: 5px;
@@ -559,5 +628,26 @@ footer{
       overflow: hidden;
       background-size: auto 100%;
       background-position: center;
+    }
+    .xboxcontrol-text{
+      background-color: #d6d6d6;
+    }
+    .footer-up-contain {
+      display: block;
+    }
+    .footer-down {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .footer-down-col2{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-down-col2 a {
+      line-height: 1.9;
+      margin-right: 10px;
     }
 }
