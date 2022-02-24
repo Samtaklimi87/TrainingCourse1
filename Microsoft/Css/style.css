@@ -311,6 +311,7 @@ header a {
   #slide2spans2{
     padding: 12px 28px;
     font-weight: 600;
+    color: #000;
   }
   .slide2spans-hide {
       text-decoration: none;
