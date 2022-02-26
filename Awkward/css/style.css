@@ -114,13 +114,21 @@ a{
     display: none;
     justify-content: flex-end;
 }
+.navlist a:hover {
+    color: rgb(148, 146, 146); 
+}
+
+.navlist > div a:hover{
+    color : rgb(170, 72, 72);
+ }
 
 /* .sketch:hover ~ .WeTransfer ,.sketch:hover ~ .Coffee  a{
    color:  #ccc;
-} */
+} 
+
 
 /* sketch */ 
-.sketch:hover ~ .WeTransfer  a{
+/* .sketch:hover ~ .WeTransfer  a{
    color:  #ccc;
 }
 
@@ -135,7 +143,7 @@ a{
 .sketch:hover ~ .More  a{
     color:  #ccc;
 }
-/* Wetransfer  */
+/* Wetransfer  
 .WeTransfer:hover ~ .sketch  a{
     color:  #ccc ;
  }
@@ -151,7 +159,7 @@ a{
  .WeTransfer:hover ~ .More  a{
      color:  #ccc;
  }
-/* Coffee */
+/* Coffee 
 .Coffee:hover ~ .WeTransfer a{
     color:  #ccc;
  }
@@ -166,7 +174,7 @@ a{
  
  .Coffee:hover ~ .More  a{
      color:  #ccc;
- }
+ } */
 
 
 
